@@ -1,6 +1,7 @@
 # Core dependencies
+huggingface_hub<0.26.0
 polars==0.20.3
-sentence-transformers==2.2.2
+sentence-transformers>=2.2.2
 faiss-cpu==1.7.4
 scikit-surprise==1.1.3
 joblib==1.3.2
@@ -9,6 +10,9 @@ joblib==1.3.2
 fastapi==0.109.0
 uvicorn==0.27.0
 gradio==4.16.0
+
+# Data processing
+tqdm>=4.66.0
 
 # Development
 ipython==8.20.0

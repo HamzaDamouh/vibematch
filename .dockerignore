@@ -1,0 +1,13 @@
+# Docker ignore - keep image small
+vibevibe/
+data/
+training/
+docs/
+.git/
+.gitignore
+.gradio/
+__pycache__/
+*.pyc
+*.md
+test_api.py
+poc_search.py
